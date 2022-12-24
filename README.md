@@ -16,7 +16,7 @@ http://localhost:5000 to see the web interface
 # Endpoints
 To see test API Data:
 - All Data:  
-http://localhost:5000/api/transactions/alldata
+http://localhost:5000/api/alldata
 
 - Filtered Data by ID and confidence:    
 http://localhost:5000/api/transactions?transactionId=5c868b224aafffc5fcffd9c3&confidenceLevel=1
@@ -27,11 +27,10 @@ _Change the transactionId and/or confidenceLevel to play around with the filters
 
 
 ### Run the app in production mode
-https://ill-lime-spider-sari.cyclic.app/api/transactions/alldata
+https://ill-lime-spider-sari.cyclic.app/api/alldata
 
 - Filtered Data by ID and confidence:    
 https://ill-lime-spider-sari.cyclic.app/api/transactions?transactionId=5c868b224aafffc5fcffd9c3&confidenceLevel=1
 
 - For flat structure, add flat=true to the url params  
 https://ill-lime-spider-sari.cyclic.app/api/transactions?transactionId=5c868b224aafffc5fcffd9c3&confidenceLevel=1&flat=true  
-_Change the transactionId and/or
