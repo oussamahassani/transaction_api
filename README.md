@@ -11,6 +11,8 @@ cd into the app root folder
 Head to:
 http://localhost:5000 to see the web interface
 
+to prepard new build version for production mode you can use `npm run tsc`
+
 
 
 # Endpoints
